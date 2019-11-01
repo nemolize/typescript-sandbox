@@ -1,0 +1,17 @@
+{
+  "name": "node-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Node Sandbox",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts localhost 8080"
+  },
+  "dependencies": {
+    "@types/node": "12.11.5",
+    "typescript": "3.7.1-rc"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "ts-node": "^8.4.1"
+  }
+}
